@@ -21,7 +21,7 @@
 <?php if ($found):
   if (!(empty($solr_fields) && variable_get('islandora_solr_metadata_omit_empty_values', FALSE))):?>
 <fieldset <?php $print ? print('class="islandora islandora-metadata"') : print('class="islandora islandora-metadata"');?>>
-  <legend><span class="fieldset-legend"><a data-toggle="collapse" data-parent="#accordion" href=".islandora-metadata-fields"><?php print t('Details'); ?></a></span></legend>
+  <legend><span class="fieldset-legend"><a data-toggle="collapse" data-parent=".islandora-metadata-fields" href=".islandora-metadata-fields"><?php print t('Details'); ?></a></span></legend>
   <div class="fieldset-wrapper">
     <dl xmlns:dcterms="http://purl.org/dc/terms/" class="islandora-inline-metadata islandora-metadata-fields collapse">
       <?php $row_field = 0; ?>
